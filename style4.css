@@ -1,0 +1,12 @@
+.stretch{
+    background-color: green;  
+    border: none;
+    font-size: 25px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.9s;
+}
+.stretch:hover{
+padding: 25px;
+margin: 25px;
+}
