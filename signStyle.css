@@ -1,0 +1,43 @@
+.div1{
+    background-color: antiquewhite;
+    width: 400px;
+    
+}
+.names{
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+}
+.inputFirst{
+    display: inline-block;
+    width: 150px;
+}
+.inputLast{
+    display: inline-block;
+    width: 186px;
+    margin-right: 0;
+}
+.email{
+    display: inline-block;
+    margin: 5px;
+    height: 35px;
+    width: 345px;
+}
+
+.btn1{
+    display: block;
+    margin: 5px;
+    height: 35px;
+    width: 350px;
+    color: rgb(251, 251, 252);
+    background-color: rgb(92, 92, 249);
+    border: none;
+    border-radius: 5px;
+}
+input{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    border-color: rgb(175, 172, 172);
+   
+}
