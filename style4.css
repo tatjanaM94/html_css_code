@@ -1,12 +1,48 @@
+div{
+    margin: 15px;
+}
+
 .stretch{
+    background-color: green;  
+    border: none;
+    margin: 0 5px 0 5px;
+    font-size: 25px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: padding 0.9s;
+    
+}
+.stretch:hover{
+padding: 25px;
+
+
+}
+
+.shadow{
     background-color: green;  
     border: none;
     font-size: 25px;
     color: aliceblue;
     cursor: pointer;
-    transition: 0.9s;
+    padding: 5px;
+    box-shadow: 3px 3px 5px rgb(158, 154, 154);
 }
-.stretch:hover{
-padding: 25px;
-margin: 25px;
+.shadow:active{
+    box-shadow: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#btn{
+    background-color: green;
+    border: none;
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: padding 0.9s;
+
+}
+#btn:hover{
+padding:5px 15px 5px 15px;
+margin: 5px 15px 5px 15px;
 }
