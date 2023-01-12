@@ -8,15 +8,36 @@ body{
     flex-direction: row;
 }
 .first-section{
-    background-color: aqua;
-    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.hamburgerImg{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youTubeImg{
+    height: 20px;
 }
 .middle-section{
     background-color: blueviolet;
     flex: 1;
+    display: flex;
+    align-items: center;
     max-width: 750px; 
     margin-left: 70px;
     margin-right: 35px;
+}
+.searchBar{
+    height: 28px;
+    width: 500px;
+
+}
+.voiceImg{
+    height: 24px;
+}
+.searchImg{
+    height: 24px;
 }
 .last-section{
     background-color: aqua;
@@ -27,9 +48,6 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 35px;
-}
-.post{
- 
 }
 .img{
     width: 100%;
