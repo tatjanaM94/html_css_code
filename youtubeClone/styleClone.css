@@ -1,6 +1,27 @@
 body{
     margin: 0;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    flex-direction: row;
+}
+.first-section{
+    background-color: aqua;
+    width: 250px;
+}
+.middle-section{
+    background-color: blueviolet;
+    flex: 1;
+    max-width: 750px; 
+    margin-left: 70px;
+    margin-right: 35px;
+}
+.last-section{
+    background-color: aqua;
+    width: 300px;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
