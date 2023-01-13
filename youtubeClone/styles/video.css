@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 35px;
+}
+
+@media (max-width: 750px) {
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }   
+}
+@media (max-width:751px) and (min-width:1069px) {
+    .container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }  
+}
+@media (min-width:1070px){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.videoImage {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    padding: 4px;
+    bottom: 8px;
+    right: 5px;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.infoVideo {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.photoChanel {
+    width: 40px;
+    border-radius: 50px;
+}
