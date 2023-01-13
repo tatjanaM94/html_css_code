@@ -237,6 +237,8 @@ body {
     background-color: black;
     color: white;
     position: absolute;
+    font-size: 12px;
+    padding: 4px;
     bottom: 8px;
     right: 5px;
 
