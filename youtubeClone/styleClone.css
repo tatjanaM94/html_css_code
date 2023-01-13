@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 88px;
+    padding-left: 110px;
 }
 
 .header {
@@ -17,6 +18,18 @@ body {
     border-bottom-width: 1px;
     border-bottom:solid;
     border-bottom-color: rgb(230, 230, 230);
+}
+.sidebar{
+    position: fixed;
+    background-color: white;
+    left: 0;
+    top: 55px;
+    width: 90px;
+    bottom: 0;
+    border-right-color: rgb(230, 230, 230);
+    border-right-width: 1px;
+    border-right: solid;
+
 }
 
 .first-section {
