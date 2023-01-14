@@ -51,6 +51,7 @@
         justify-content:left;
         align-items: center;
         cursor: pointer;
+        margin-left: 24px;
     }
     
     .sidebar-link:hover {
