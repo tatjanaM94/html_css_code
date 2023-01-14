@@ -96,7 +96,6 @@
     transition: opasity 0.15ms;
     pointer-events: none;
     white-space: nowrap;
-
 }
 .searchBtn:hover .description,
 .voiceBtn:hover .description,
