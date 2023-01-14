@@ -6,3 +6,8 @@ body {
     background-color: rgb(245, 246, 247);
     font-family: Roboto,Arial;
 }
+@media (min-width:1201px) {
+    body{
+        margin-left: 170px;
+    }
+}
